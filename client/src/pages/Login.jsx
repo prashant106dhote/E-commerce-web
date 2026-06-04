@@ -12,7 +12,7 @@ function Login() {
   const loginUser = async () => {
 
     const res = await axios.post(
-      "http://localhost:5000/api/auth/login",
+      "https://e-commerce-web-3m0g.onrender.com/api/auth/login",
       {
         email,
         password,
