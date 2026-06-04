@@ -13,7 +13,7 @@ function Signup() {
   const registerUser = async () => {
 
     await axios.post(
-      "http://localhost:5000/api/auth/signup",
+       "https://e-commerce-web-3m0g.onrender.com/api/auth/signup",
       {
         name,
         email,
